@@ -31,7 +31,7 @@ const options = {
             startBtn.disabled = false;
         } else {
             userSelectedDate = null;
-            startBtn.disabled = false;
+            startBtn.disabled = true;
 
             iziToast.error({
                 title: "Error",
